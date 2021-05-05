@@ -1,0 +1,457 @@
+body {
+  background: black;
+}
+
+.containerIndex {
+  max-width: 960px 120px;
+  height: 680px;
+  background: url("../img/container.png") no-repeat center;
+  background-size: cover;
+  margin-bottom: 120px;
+}
+
+.introducao {
+  font-family: Book Antiqua, Georgia, "Times New Roman", Times, serif;
+  font-size: 24px;
+  font-style: italic;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 12px;
+  line-height: 32px;
+  letter-spacing: 2px;
+}
+.introducao::after {
+  content: "";
+  display: block;
+  width: 195px;
+  height: 1px;
+  background: #05b182;
+  margin: 0 auto;
+}
+
+.introducao::before {
+  content: "";
+  display: block;
+  width: 195px;
+  height: 1px;
+  background: #05b182;
+  margin: 0 auto;
+}
+
+.introducaoH1 {
+  font-family: Bahnschrift, Calibri, "Trebuchet MS", sans-serif;
+  font-size: 82px;
+  font-weight: bold;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  color: white;
+  padding-top: 160px;
+  text-align: center;
+  line-height: 120px;
+}
+h2::after {
+  content: "|";
+  margin-left: 5px;
+  opacity: 1;
+  animation: pisca 0.7s infinite;
+}
+
+@keyframes pisca {
+  8%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+}
+
+p::after {
+  content: "";
+  margin-left: 5px;
+  opacity: 1;
+  animation: pisca 0.7s infinite;
+}
+
+@keyframes pisca {
+  8%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+}
+
+#sejaBemVindo::after {
+  content: "";
+  margin-left: 5px;
+  opacity: 1;
+  animation: pisca 0.7s infinite;
+}
+
+@keyframes pisca {
+  8%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+}
+.introducaoH1::after {
+  content: "";
+  display: block;
+  width: 762px;
+  height: 3px;
+  background: #b1b762;
+  margin: 0 auto;
+}
+
+.introducaoH1::before {
+  content: "";
+  display: block;
+  width: 762px;
+  height: 3px;
+  background: #b1b762;
+  margin: 0 auto;
+}
+
+.introducaoP {
+  font-family: Book Antiqua, Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  font-style: italic;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 24px;
+  line-height: 32px;
+  letter-spacing: 2px;
+}
+
+.introducaoP::after {
+  content: "";
+  display: block;
+  width: 360px;
+  height: 1px;
+  background: #05b182;
+  margin: 0 auto;
+}
+
+.introducaoP::before {
+  content: "";
+  display: block;
+  width: 360px;
+  height: 1px;
+  background: #05b182;
+  margin: 0 auto;
+}
+
+.cliqueAqui ul li {
+  margin-top: 200px;
+  padding-left: 16px;
+  display: inline-block;
+}
+
+.nav_bar {
+  margin-right: 40px;
+  text-align: center;
+}
+
+.lista li a {
+  font-family: Alata, Calibri, "Trebuchet MS", sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  border: 2px solid black;
+  border-radius: 50px;
+  padding: 12px;
+  transition: ease-in 0.2s;
+}
+
+.lista li a:hover {
+  color: #05b182;
+  border: 2px solid #b1b762;
+  text-shadow: 1px 0px #05b182;
+  font-weight: lighter;
+  scroll-margin-bottom: 500px;
+  transition: ease-in 0.2s;
+  letter-spacing: 6px;
+}
+
+.sobre {
+  max-width: 960px 120px;
+  height: 800px;
+  background: url("../img/container-4.png") no-repeat center;
+  background-size: cover;
+  display: flex;
+  flex: wrap;
+  border: 1px solid black;
+}
+
+.sobre-info {
+  flex: 2 1 300px;
+  margin: 0 10px;
+}
+
+.foto img {
+  border-radius: 70%;
+  border: 5px solid black;
+  margin-top: 200px;
+  margin-left: 80px;
+}
+
+.foto p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+  font-style: italic;
+  color: white;
+  font-weight: normal;
+  text-align: center;
+  margin-top: 264px;
+  line-height: 32px;
+  letter-spacing: 1px;
+  width: 500px;
+}
+
+.containerEmail {
+  margin-top: 200px;
+  max-width: 720px 120px;
+  height: 800px;
+  background: url("../img/container-2.png") no-repeat center black;
+  background-size: cover;
+  text-align: center;
+}
+
+.nameEmail {
+  font-family: Bahnschrift, Calibri, "Trebuchet MS", sans-serif;
+  font-size: 82px;
+  font-weight: bold;
+  letter-spacing: 6px;
+  text-transform: capitalize;
+  color: white;
+  padding-top: 60px;
+  margin-left: 20px;
+}
+
+#contatoArea::after {
+  content: "|";
+  opacity: 1;
+  animation: pisca 0.7s infinite;
+}
+
+.nameEmail::after {
+  content: "";
+  display: block;
+  width: 680px;
+  height: 3px;
+  background: #b1b762;
+  margin: 0 auto;
+}
+
+.nameEmail h2::before {
+  content: "";
+  display: block;
+  width: 680px;
+  height: 3px;
+  background: #b1b762;
+  margin: 0 auto;
+}
+
+@keyframes pisca {
+  8%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+}
+
+.contatonav {
+  display: inline-block;
+  margin-top: 100px;
+}
+
+.contatonav dl dt {
+  font-family: Alata, Calibri, "Trebuchet MS", sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  color: whitesmoke;
+  letter-spacing: 2px;
+  margin: 25px 0;
+  text-transform: capitalize;
+  transition: 0.2s ease-in;
+  cursor: pointer;
+}
+
+.js-accordion dt:hover::after {
+  color: red;
+  transition: 0.2s ease-in;
+}
+
+.js-accordion dt::after {
+  content: " ⯆";
+  color: #05b182;
+}
+
+.js-accordion dt.ativo::after {
+  content: "▲";
+}
+
+.contatonav dl dd {
+  font-family: Alata, Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: orange;
+  letter-spacing: 2px;
+  margin: 30px 0;
+  transition: 0.2s ease-in;
+}
+
+.js-accordion dd {
+  display: none;
+}
+
+.contatonav dl dd:hover {
+  letter-spacing: 4px;
+  transition: 0.2s ease-in;
+}
+
+.js-accordion dd.ativo {
+  display: block !important;
+  animation: show 0.3s forwards;
+}
+
+.js-accordion dd.ativo::before {
+  content: "✔ ";
+  color: green;
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+    transform: translate3d(-30px, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0px, 0, 0);
+  }
+}
+
+.listaUL a:hover {
+  border-radius: 50px;
+  color: rgb(36, 216, 105);
+  letter-spacing: 3px;
+  -webkit-transition: 0.3s ease-in;
+  -moz-transition: 0.3s ease-in;
+  -o-transition: 0.3s ease-in;
+  transition: 0.3s ease-in;
+}
+
+.projetosContainer {
+  margin-top: 200px;
+  max-width: 720px 120px;
+  height: 800px;
+  background: url("../img/container-3.png") no-repeat center red;
+  background-size: cover;
+  text-align: center;
+}
+
+.projetoClick h2 {
+  margin: 0 auto;
+  width: 520px;
+  padding-top: 110px;
+}
+.projetoClick a {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 40px;
+  font-weight: bold;
+  font-style: italic;
+  color: white;
+  margin: 0 auto;
+  letter-spacing: 2px;
+  line-height: 65px;
+}
+
+.prjetoLista li a {
+  font-family: Alata, Calibri, "Trebuchet MS", sans-serif;
+  font-style: italic;
+  font-weight: bolder;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  border: 2px solid #05b182;
+  border-radius: 50px;
+  padding: 12px;
+  transition: 0.2s ease-in;
+}
+
+.prjetoLista li a:hover {
+  color: yellow;
+  border: 2px solid white;
+  /*text-shadow: 1px 0px #b1b762;*/
+  transition: 0.2s ease-in;
+}
+
+.footerBG {
+  margin-top: 50px;
+  max-width: 960px 120px;
+  height: 120px;
+  background-color: rgb(34, 21, 21);
+}
+
+.footerBG h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-style: italic;
+  text-transform: capitalize;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 20px;
+  color: white;
+}
+
+.footerBG p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-style: italic;
+  text-transform: capitalize;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 20px;
+  color: white;
+}
+
+.footerBG h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-style: italic;
+  text-transform: capitalize;
+  font-size: 16px;
+  text-align: center;
+  padding-top: 20px;
+  color: white;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+@keyframes modal {
+  from {
+    opacity: 0;
+    transform: translate3d(-30px, 0, 10px);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(30px, 0, 0px);
+  }
+}
